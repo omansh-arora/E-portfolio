@@ -277,7 +277,7 @@ section{
                 border: 1px solid var(--color-secondary);
             }
             .abt-text{
-                padding: 1.5rem;
+                padding: 1.1rem;
                 display: flex;
                 flex-direction: column;
                 .large-text{
@@ -580,9 +580,9 @@ section{
             transform: scale(0);
             transition: var(--tranny);
             h3{
-                font-size: 1.5rem;
+                font-size: 1.1rem;
                 color: var(--color-white);
-                margin-bottom: 1.5rem;
+                margin-bottom: 1.1rem;
             }
             .icons{
                 display: flex;
@@ -601,7 +601,7 @@ section{
                     cursor: pointer;
                     transition: var(--tranny);
                     i{
-                        font-size: 1.5rem;
+                        font-size: 1.1rem;
                         color: var(--color-white);
                         margin: 0 1rem;
                     }
@@ -701,7 +701,7 @@ section{
         flex: 3;
         margin-left: 3rem;
         .input-control{
-            margin: 1.5rem 0;
+            margin: 1.1rem 0;
             input, textarea{
                 border-radius: 30px;
                 font-weight: inherit;
@@ -720,7 +720,7 @@ section{
         .i-c-2{
             display: flex;
             :last-child{
-                margin-left: 1.5rem;
+                margin-left: 1.1rem;
 
             }
         }
@@ -745,7 +745,7 @@ section{
     justify-content: center;
     align-items: center;
     i{
-        font-weight: 1.5rem;
+        font-weight: 1.1rem;
         h1{
 
             display: flex;
@@ -759,10 +759,9 @@ section{
 }
 
 .sbt-btn{
-    
+    background-color: var(--color-primary);
+    color: var(--color-white);
     border-radius: 30px;
-    color: inherit;
-    font-weight: 600;
     position: relative;
     border: 1px solid var(--color-secondary);
     display: flex;
@@ -771,6 +770,13 @@ section{
     align-items: center;
     overflow: hidden;
     transform: translateY(15%);
+    width: 30%;
+    height: 2rem;
+    font-family: inherit;
+    font-weight: 1rem;
+    text-align: center;
+    
+
     .btn-text{
         padding: 0 2rem;
     }

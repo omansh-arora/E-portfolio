@@ -336,7 +336,7 @@ section {
 }
 
 .about-container .right-about .about-item .abt-text {
-  padding: 1.5rem;
+  padding: 1.1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -727,9 +727,9 @@ section {
 }
 
 .portfolios .port-item .hover-items h3 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: var(--color-white);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.1rem;
 }
 
 .portfolios .port-item .hover-items .icons {
@@ -765,7 +765,7 @@ section {
 }
 
 .portfolios .port-item .hover-items .icons .icon i {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: var(--color-white);
   margin: 0 1rem;
 }
@@ -899,7 +899,7 @@ section {
 }
 
 .contact-content-con .right-contact .input-control {
-  margin: 1.5rem 0;
+  margin: 1.1rem 0;
 }
 
 .contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
@@ -923,7 +923,7 @@ section {
 }
 
 .contact-content-con .right-contact .i-c-2 :last-child {
-  margin-left: 1.5rem;
+  margin-left: 1.1rem;
 }
 
 .contact-content-con .right-contact .submit-btn {
@@ -957,7 +957,7 @@ section {
 }
 
 .arrow i {
-  font-weight: 1.5rem;
+  font-weight: 1.1rem;
 }
 
 .arrow i h1 {
@@ -976,9 +976,9 @@ section {
 }
 
 .sbt-btn {
+  background-color: var(--color-primary);
+  color: var(--color-white);
   border-radius: 30px;
-  color: inherit;
-  font-weight: 600;
   position: relative;
   border: 1px solid var(--color-secondary);
   display: -webkit-box;
@@ -993,6 +993,11 @@ section {
   overflow: hidden;
   -webkit-transform: translateY(15%);
           transform: translateY(15%);
+  width: 30%;
+  height: 2rem;
+  font-family: inherit;
+  font-weight: 1rem;
+  text-align: center;
 }
 
 .sbt-btn .btn-text {
