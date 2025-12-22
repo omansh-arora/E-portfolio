@@ -618,6 +618,7 @@ section {
   transform: translate(-50%, -50%);
   font-weight: 800;
   font-size: 5rem;
+  white-space: nowrap;
 }
 
 .stat-title {
@@ -1210,7 +1211,7 @@ section {
   }
 
   .main-title h2 .bg-text {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .controlls {
