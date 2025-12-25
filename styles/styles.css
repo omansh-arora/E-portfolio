@@ -1202,6 +1202,16 @@ section {
     width: 90%;
   }
 
+  .btn-con {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
   .about-container {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -1293,6 +1303,10 @@ section {
 }
 
 @media screen and (max-width: 1280px) {
+  .header-content .right-header {
+    padding-right: 4rem;
+  }
+
   .sec5 {
     padding: 3rem 6rem !important;
   }
@@ -1310,6 +1324,12 @@ section {
 
   .theme-btn i {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .header-content .right-header {
+    padding-right: 0;
   }
 }
 
